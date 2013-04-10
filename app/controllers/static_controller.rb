@@ -4,5 +4,6 @@ class StaticController < ApplicationController
   end
 
   def contact
+    render "shared/steve"
   end
 end
